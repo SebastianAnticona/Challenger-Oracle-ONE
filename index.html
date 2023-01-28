@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" href="img/Logo (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logo" src="img/Logo.png" alt="LOGO Alura" />
+        </a>
+    </header>
+    <main>
+        <div class="principal">
+            <textarea class="texto_ingresado" placeholder="Ingrese el texto aqui" ></textarea>
+            <div class="aviso">
+                <img src="img/Vector.png" alt="Simbolo de Exclamación"><p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor_botones">
+                <button class="btnEncriptador" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptador" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            
+        </div>
+        <div class="secundario">
+            <div id="vacio">
+                <div class="contenedor_imagen">
+                    <img src="img/Muñeco.png" alt="Muñeco Alura">
+                </div>
+                <div class="contenedor_texto">
+                    <p>Ningún mensaje fue encontrado</p>
+                    <p>Ingrese el texto que deseas encriptar o desencriptar</p>
+                </div>
+            </div>
+            <div id="resultado">
+                <textarea class="texto_resultado" readonly="readonly" id="copia"></textarea>
+                <div class="contenedor_botones">
+                    <button class="btnCopiar" onclick="Copiar()">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>&copy Sitio desarrollado por Sebastian Anticona para el <a href="https://app.aluracursos.com/user/anticonasebas">Challender One Codificador 4</a> de Alura Latam 2022</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
