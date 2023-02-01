@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 body {
-    background-color: #F3F5FC;
-    font-family: 'Inter', sans-serif;
+    background-color: #f3f5fc;
+    font-family: "Inter", sans-serif;
 }
 
 main {
@@ -19,18 +19,18 @@ button {
     margin-left: 24px;
 }
 
-
-.logo{
+.logo {
     padding-top: 40px;
     padding-left: 40px;
 }
 
-::placeholder{
-    color: #0A3871;
+::placeholder {
+    color: #0a3871;
     opacity: 70%;
 }
+
 .texto_ingresado {
-    background-color: #F3F5FC;
+    background-color: #f3f5fc;
     width: 680px;
     height: 574px;
     display: block;
@@ -38,10 +38,10 @@ button {
     margin-left: 200px;
     border: none;
     outline: none;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-size: 32px;
-    color: #0A3871;
+    color: #0a3871;
     resize: none;
 }
 
@@ -52,7 +52,8 @@ button {
     font-size: 12px;
     color: #495057;
 }
-.aviso p{
+
+.aviso p {
     padding-left: 8px;
 }
 
@@ -62,25 +63,26 @@ button {
     margin-left: 175px;
 }
 
-.btnEncriptador{
-    background-color: #0A3871;
+.btnEncriptador {
+    background-color: #0a3871;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.btnDesencriptador{
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
-    color: #0A3871;
+.btnDesencriptador {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    color: #0a3871;
 }
 
-.secundario{
-    background: #FFFFFF;
+.secundario {
+    background: #ffffff;
     width: 400px;
     height: 740px;
     border-radius: 32px;
     margin-right: 60px;
 }
+
 .contenedor_imagen {
     width: 100%;
     height: auto;
@@ -90,18 +92,17 @@ button {
     text-align: center;
 }
 
-
-.contenedor_texto p:nth-child(1){
+.contenedor_texto p:nth-child(1) {
     padding-top: 32px;
     padding-left: 22%;
     width: 60%;
     height: 20%;
     font-size: 24px;
-    color: #343A40;
+    color: #343a40;
     text-align: center;
 }
 
-.contenedor_texto p:nth-child(2){
+.contenedor_texto p:nth-child(2) {
     padding-left: 10%;
     margin-top: 16px;
     width: 80%;
@@ -115,7 +116,7 @@ button {
     margin: 32px;
     width: 82%;
     height: 590px;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-size: 24px;
     color: #495057;
     border: none;
@@ -127,15 +128,14 @@ button {
     display: none;
 }
 
-.btnCopiar{
+.btnCopiar {
     margin-left: 42px;
-    border: 1px solid #0A3871;
-    color: #0A3871;
+    border: 1px solid #0a3871;
+    color: #0a3871;
     display: none;
-
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -144,81 +144,71 @@ footer{
     font-size: 12px;
     padding-top: 30px;
     padding-bottom: 25px;
-
 }
 
 @media (max-width: 800px) {
-    
-main {
-    height: 80%;
-    display: grid;
-    grid-row: 1;
-}
+    main {
+        height: 80%;
+        display: grid;
+        grid-row: 1;
+    }
 
-.logo{
-    padding-top: 20px;
-    padding-left: 10px;
-}
+    .logo {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
 
-.texto_ingresado {
-    background-color: #F3F5FC;
-    width: 600px;
-    height: 574px;
-    margin-left: 100px;
-}
+    .texto_ingresado {
+        background-color: #f3f5fc;
+        width: 600px;
+        height: 574px;
+        margin-left: 100px;
+    }
 
-.aviso {
-    margin-left: 55px;
-}
+    .aviso {
+        margin-left: 55px;
+    }
 
+    .contenedor_botones {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
 
-.contenedor_botones {
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 0px;
-}
+    .secundario {
+        margin-left: 50px;
+        margin-top: 64px;
+        width: 650px;
+        height: 740px;
+    }
 
+    .texto_resultado {
+        width: 90%;
+    }
 
-.secundario{
-    margin-left: 50px;
-    margin-top: 64px;
-    width: 650px;
-    height: 740px;
-}
-
-
-
-.texto_resultado {
-    width: 90%;
-}
-
-.btnCopiar{
-    width: 630px;
-    margin-left: 10px;
-}
-
-
+    .btnCopiar {
+        width: 630px;
+        margin-left: 10px;
+    }
 }
 
 @media (max-width: 400px) {
-    
-    .logo{
+    .logo {
         padding-top: 10px;
     }
-    
+
     .texto_ingresado {
-        background-color: #F3F5FC;
+        background-color: #f3f5fc;
         width: 320px;
         height: 574px;
         margin-left: 30px;
-
     }
-    
+
     .aviso {
         margin-left: 10px;
     }
-    
-    .contenedor_imagen img{
+
+    .contenedor_imagen img {
         width: 90%;
     }
 
@@ -227,12 +217,12 @@ main {
         grid-row: 1;
         margin-top: 10px;
     }
-    
-    .btnEncriptador{
+
+    .btnEncriptador {
         margin-bottom: 26px;
     }
-    
-    .secundario{
+
+    .secundario {
         margin-left: 28px;
         margin-top: 35px;
         width: 330px;
@@ -242,22 +232,19 @@ main {
     .texto_resultado {
         width: 80%;
     }
-    
-    .btnCopiar{
+
+    .btnCopiar {
         width: 279px;
         height: 67px;
         margin-left: 28px;
-
-    
     }
-    
-    footer{
+
+    footer {
         display: inline-flex;
         justify-content: center;
         color: #495057;
         font-size: 12px;
         padding-top: 30px;
         padding-bottom: 25px;
-    
     }
 }
