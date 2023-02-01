@@ -190,61 +190,62 @@ footer {
         width: 630px;
         margin-left: 10px;
     }
+    
+    @media (max-width: 400px) {
+        .logo {
+            padding-top: 10px;
+        }
+    
+        .texto_ingresado {
+            background-color: #f3f5fc;
+            width: 320px;
+            height: 574px;
+            margin-left: 30px;
+        }
+    
+        .aviso {
+            margin-left: 10px;
+        }
+    
+        .contenedor_imagen img {
+            width: 90%;
+        }
+    
+        .contenedor_botones {
+            display: grid;
+            grid-row: 1;
+            margin-top: 10px;
+        }
+    
+        .btnEncriptador {
+            margin-bottom: 26px;
+        }
+    
+        .secundario {
+            margin-left: 28px;
+            margin-top: 35px;
+            width: 330px;
+            height: 740px;
+        }
+    
+        .texto_resultado {
+            width: 80%;
+        }
+    
+        .btnCopiar {
+            width: 279px;
+            height: 67px;
+            margin-left: 28px;
+        }
+    
+        footer {
+            display: inline-flex;
+            justify-content: center;
+            color: #495057;
+            font-size: 12px;
+            padding-top: 30px;
+            padding-bottom: 25px;
+        }
+    }
 }
 
-@media (max-width: 400px) {
-    .logo {
-        padding-top: 10px;
-    }
-
-    .texto_ingresado {
-        background-color: #f3f5fc;
-        width: 320px;
-        height: 574px;
-        margin-left: 30px;
-    }
-
-    .aviso {
-        margin-left: 10px;
-    }
-
-    .contenedor_imagen img {
-        width: 90%;
-    }
-
-    .contenedor_botones {
-        display: grid;
-        grid-row: 1;
-        margin-top: 10px;
-    }
-
-    .btnEncriptador {
-        margin-bottom: 26px;
-    }
-
-    .secundario {
-        margin-left: 28px;
-        margin-top: 35px;
-        width: 330px;
-        height: 740px;
-    }
-
-    .texto_resultado {
-        width: 80%;
-    }
-
-    .btnCopiar {
-        width: 279px;
-        height: 67px;
-        margin-left: 28px;
-    }
-
-    footer {
-        display: inline-flex;
-        justify-content: center;
-        color: #495057;
-        font-size: 12px;
-        padding-top: 30px;
-        padding-bottom: 25px;
-    }
-}
